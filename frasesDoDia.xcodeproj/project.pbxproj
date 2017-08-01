@@ -12,6 +12,9 @@
 		9A15990D1F309726008452D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A15990B1F309726008452D7 /* Main.storyboard */; };
 		9A15990F1F309726008452D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A15990E1F309726008452D7 /* Assets.xcassets */; };
 		9A1599121F309726008452D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1599101F309726008452D7 /* LaunchScreen.storyboard */; };
+		9A15991D1F309824008452D7 /* aspas-direita.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A15991A1F309824008452D7 /* aspas-direita.png */; };
+		9A15991E1F309824008452D7 /* aspas-esquerda.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A15991B1F309824008452D7 /* aspas-esquerda.png */; };
+		9A15991F1F309824008452D7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A15991C1F309824008452D7 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9A15990E1F309726008452D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1599111F309726008452D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1599131F309726008452D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A15991A1F309824008452D7 /* aspas-direita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-direita.png"; sourceTree = "<group>"; };
+		9A15991B1F309824008452D7 /* aspas-esquerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-esquerda.png"; sourceTree = "<group>"; };
+		9A15991C1F309824008452D7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		9A1599061F309726008452D7 /* frasesDoDia */ = {
 			isa = PBXGroup;
 			children = (
+				9A1599191F309806008452D7 /* images */,
 				9A1599071F309726008452D7 /* AppDelegate.swift */,
 				9A1599091F309726008452D7 /* ViewController.swift */,
 				9A15990B1F309726008452D7 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				9A1599131F309726008452D7 /* Info.plist */,
 			);
 			path = frasesDoDia;
+			sourceTree = "<group>";
+		};
+		9A1599191F309806008452D7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9A15991A1F309824008452D7 /* aspas-direita.png */,
+				9A15991B1F309824008452D7 /* aspas-esquerda.png */,
+				9A15991C1F309824008452D7 /* logo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,10 @@
 			files = (
 				9A1599121F309726008452D7 /* LaunchScreen.storyboard in Resources */,
 				9A15990F1F309726008452D7 /* Assets.xcassets in Resources */,
+				9A15991F1F309824008452D7 /* logo.png in Resources */,
 				9A15990D1F309726008452D7 /* Main.storyboard in Resources */,
+				9A15991D1F309824008452D7 /* aspas-direita.png in Resources */,
+				9A15991E1F309824008452D7 /* aspas-esquerda.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
