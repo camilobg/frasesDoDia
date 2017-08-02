@@ -23,24 +23,31 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lb_fraseDoDia: UILabel!
     
-    var frases = ["A","B","C"]
-    
-    
-    //
-    
+    @IBOutlet weak var lb_autorFraseDoDia: UILabel!
     
     
     @IBAction func mostrarProximaFrase(_ sender: Any) {
         
-        frases[0] = "Eu prefiro morrer do que perder a vida - Chaves"
-        frases[1] = "Foi sem querer querendo - Chaves"
-        frases[2] = "A vingança nunca é plena, mata a alma e a envenvena - Seu Madruga"
+        var frases: [String] = []
+        var autores: [String] = []
         
         
+        frases.append("Eu prefiro morrer do que perder a vida.")
+        frases.append("Foi sem querer querendo.")
+        frases.append("A vingança nunca é plena, mata a alma e a envenvena.")
+        frases.append("Só uma vez me engannei. Quando pensei estar enganado.")
         
-        let frase_selected: Int = Int(arc4random_uniform(3))
+        autores.append("Chaves")
+        autores.append("Chaves")
+        autores.append("Seu Madruga")
+        autores.append("Professor Girafales")
+        
+        
+        let frase_selected: Int = Int(arc4random_uniform(4))
         
         lb_fraseDoDia.text = frases[frase_selected]
+        lb_autorFraseDoDia.text = autores[frase_selected]
+        
         
         
     }
